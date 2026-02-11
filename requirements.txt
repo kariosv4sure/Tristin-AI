@@ -1,4 +1,4 @@
-pyTeleBotAPI
+pyTelegramBotAPI
 requests
 python-dotenv
 deep-translator
