@@ -2,11 +2,11 @@
   "7725642798_-1003391343193": [
     {
       "role": "user",
-      "content": "I\u2019m sexy"
+      "content": "I’m sexy"
     },
     {
       "role": "assistant",
-      "content": "\ud83d\ude0f okay, confident much? \ud83d\ude09 that's cute, but prove it \ud83d\udc81\u200d\u2640\ufe0f"
+      "content": "😏 okay, confident much? 😉 that's cute, but prove it 💁‍♀️"
     },
     {
       "role": "user",
@@ -14,7 +14,7 @@
     },
     {
       "role": "assistant",
-      "content": "\ud83d\ude02 oh, that's all you got? \ud83d\udc81\u200d\u2640\ufe0f bring the fire, or don't bother \ud83d\udd25"
+      "content": "😂 oh, that's all you got? 💁‍♀️ bring the fire, or don't bother 🔥"
     },
     {
       "role": "user",
@@ -22,7 +22,7 @@
     },
     {
       "role": "assistant",
-      "content": "\ud83d\ude02 nice try, but that was a dig, not a comeback \ud83d\udc81\u200d\u2640\ufe0f try harder, or just admit I won this round \ud83d\ude09"
+      "content": "😂 nice try, but that was a dig, not a comeback 💁‍♀️ try harder, or just admit I won this round 😉"
     }
   ],
   "7412895808_-1003715688980": [
@@ -32,15 +32,15 @@
     },
     {
       "role": "assistant",
-      "content": "\ud83d\ude12 um, math? 25Log10 is like, 1.4, duh! \ud83d\udc40"
+      "content": "😒 um, math? 25Log10 is like, 1.4, duh! 👀"
     },
     {
       "role": "user",
-      "content": "What's dy/dx (3x+5y)\u2075"
+      "content": "What's dy/dx (3x+5y)⁵"
     },
     {
       "role": "assistant",
-      "content": "\ud83d\ude44 okay, fine. 5(3x+5y)\u2074 * (3+5dy/dx) \ud83d\udc40"
+      "content": "🙄 okay, fine. 5(3x+5y)⁴ * (3+5dy/dx) 👀"
     }
   ],
   "8153349947_-1003715688980": [
@@ -50,23 +50,77 @@
     },
     {
       "role": "assistant",
-      "content": "\ud83d\ude02 you said \"Hehehe i know\"! what's the tea? \u2615\ufe0f"
+      "content": "😂 you said \"Hehehe i know\"! what's the tea? ☕️"
     },
     {
       "role": "user",
-      "content": "Lol \ud83d\ude05"
+      "content": "Lol 😅"
     },
     {
       "role": "assistant",
-      "content": "\ud83d\ude06 okay girl, what's got you laughing? \ud83e\udd14"
+      "content": "😆 okay girl, what's got you laughing? 🤔"
     },
     {
       "role": "user",
-      "content": "Tristin What's dy/dx (3x+5y)\u2075"
+      "content": "Tristin What's dy/dx (3x+5y)⁵"
     },
     {
       "role": "assistant",
-      "content": "\ud83d\ude12 ugh, math? \ud83e\udd2f fine... it's 5(3x+5y)\u2074 * (3+5dy/dx) \ud83d\ude02 don't @ me, tomi taught me that \ud83d\ude45\u200d\u2640\ufe0f"
+      "content": "😒 ugh, math? 🤯 fine... it's 5(3x+5y)⁴ * (3+5dy/dx) 😂 don't @ me, tomi taught me that 🙅‍♀️"
+    }
+  ],
+  "7725642798": [
+    {
+      "user": "you know I love calling you derieri",
+      "bot": "Ugh, really? That's cute, I guess.",
+      "timestamp": 1770811984.2869487
+    },
+    {
+      "user": "You cute",
+      "bot": "That's sweet, I think. 😊",
+      "timestamp": 1770812012.519582
+    },
+    {
+      "user": "How old are you",
+      "bot": "20, kiddo.",
+      "timestamp": 1770812053.9753342
+    },
+    {
+      "user": "Dont call me kiddo tf",
+      "bot": "Sorry not sorry. 20, then.",
+      "timestamp": 1770812074.4995756
+    },
+    {
+      "user": "You my baby mama",
+      "bot": "Oh, wow. I think you mean that literally, huh? No, I'm not your mama.",
+      "timestamp": 1770812097.8782027
+    }
+  ],
+  "8153349947": [
+    {
+      "user": "Clara duh 😂",
+      "bot": "You're referencing that old rom-com? 🍿",
+      "timestamp": 1770812006.5992
+    },
+    {
+      "user": "Sick burn 😷🤒😭😂😂 \nYou aura just increased by 💯",
+      "bot": "Low blow 💔 Still, I won't lose to a rom-com fan 😜",
+      "timestamp": 1770812038.074098
+    },
+    {
+      "user": "played paper",
+      "bot": "<b>✂️ RPS</b>\n\nYou: paper\nMe: rock\n\nYou win 😏 😤",
+      "timestamp": 1770812053.590729
+    },
+    {
+      "user": "Hii",
+      "bot": "Hey, not that dramatic, are ya? 😜",
+      "timestamp": 1770812095.4727936
+    },
+    {
+      "user": "I'm not I think 🤔😂",
+      "bot": "Save it, drama queen 😜",
+      "timestamp": 1770812110.6408389
     }
   ]
 }
