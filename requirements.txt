@@ -1,6 +1,6 @@
-Flask
-pyTelegramBotAPI
-python-dotenv
-requests
-deep-translator
-gunicorn
+pyTeleBotAPI==4.20.0
+requests==2.31.0
+python-dotenv==1.0.0
+deep-translator==1.11.4
+Flask==3.0.0
+gunicorn==21.2.0

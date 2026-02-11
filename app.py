@@ -674,25 +674,37 @@ def run_bot_polling():
             time.sleep(5)
             continue
 
+# 🔥 FIX: START BOT THREAD IMMEDIATELY, NOT INSIDE __main__ check
+print("🚀 Starting bot polling thread...")
+bot_thread = threading.Thread(target=run_bot_polling, daemon=True)
+bot_thread.start()
+print("✅ Bot polling thread started!")
+
+# ================== FLASK SERVER ==================
+app = Flask(__name__)
+
+# ... your Flask routes ...
+
+# 🔥 FIX: Only run Flask directly when executing locally
 if __name__ == '__main__':
+    # This runs ONLY when you do `python app.py` locally
     print("\n" + "="*50)
     print("🔥 MISS TRISTIN IS AWAKE 🔥")
     print(f"🤖 @{BOT_USERNAME}")
-    print(f"🌍 Render: {'Yes' if IS_RENDER else 'No'}")
+    print(f"🌍 Render: {IS_RENDER}")
     print("="*50)
     print(f"📊 Users: {len(users_data)}")
     print(f"✅ Verified: {len(verified_users)}")
     print(f"💬 Conversations: {len(conversation_history)}")
     print("="*50 + "\n")
 
-    # Save initial data
     save_all_data()
-
-    # Start bot polling in a thread
-    bot_thread = threading.Thread(target=run_bot_polling, daemon=True)
-    bot_thread.start()
-    print("🚀 Bot thread started with TYPING EFFECT enabled 💬")
-
-    # Start Flask server
+    
+    # Start Flask server locally
     print(f"🌐 Starting Flask server on port {PORT}...")
     app.run(host='0.0.0.0', port=PORT, debug=False, use_reloader=False)
+else:
+    # 🔥 This runs on Render when Gunicorn imports your app
+    print("🌍 Running on Render - Bot thread already started above")
+    save_all_data()  # Save data on Render startup too
+
